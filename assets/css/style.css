@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #5db8ff, #c9e6ff);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    background: #004aad;
+    color: white;
+    padding: 30px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.header h2 {
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+#jam {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.info-kelas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    padding: 15px 20px;
+    text-align: center;
+    width: 180px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background: #eaf6ff;
+}
+
+.container {
+    background: white;
+    width: 85%;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f9ff;
+}
+
+footer {
+    background: #004aad;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 30px;
+    font-size: 0.9rem;
+}
