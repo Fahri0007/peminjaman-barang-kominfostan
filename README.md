@@ -1,5 +1,8 @@
 # Aplikasi Peminjaman Barang Kominfostan.
 
+## Deskripsi
+Aplikasi berbasis PHP dan MySQL untuk mengelola peminjaman dan pengembalian barang di lingkungan Kominfostan.
+
 ## Fitur
 - Login & Register
 - Multi role (Admin & User)
